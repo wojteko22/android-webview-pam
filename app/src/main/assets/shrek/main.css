@@ -1,0 +1,42 @@
+
+
+svg {
+    /*height: 1500px;*/
+    /*width: 400px;*/
+    background-color: pink;
+}
+
+#s, #h, #r, #e, #k {
+    animation: fall 5s;
+    background-color: pink;
+}
+
+#h {
+    animation-delay: 1s;
+}
+
+#r {
+    animation-delay: 2s;
+}
+
+#e {
+    animation-delay: 3s;
+}
+
+#k {
+    animation-delay: 4s;
+}
+
+@keyframes fall {
+    0% {
+        top: 0;
+    }
+
+    80% {
+        transform: translateY(120px);
+    }
+
+    100% {
+        transform: translate(-200px, 120px);
+    }
+}

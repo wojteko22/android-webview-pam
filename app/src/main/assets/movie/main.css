@@ -1,0 +1,11 @@
+body {
+    position: relative;
+}
+
+video {
+    position: absolute;
+    height: 336px;
+    width: 448px;
+    left: 180px;
+    top: 70px;
+}
